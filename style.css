@@ -44,6 +44,7 @@ a:hover {
 
 nav {
   display: inline-block;
+  user-select: none;
 }
 
 nav ul {
@@ -67,4 +68,9 @@ nav ul li {
 
 .navbar-el {
   text-decoration: none;
+}
+
+#navbar-yt-redirect {
+  /* this makes the button look clickable */
+  cursor: pointer;
 }
