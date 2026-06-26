@@ -44,6 +44,7 @@ a:hover {
 
 nav {
   display: inline-block;
+  user-select: none;
 }
 
 nav ul {
@@ -59,4 +60,22 @@ nav ul li:last-child {
 
 nav ul li {
   display: inline;
+}
+
+.navbar-border {
+  color: aliceblue;
+}
+
+.navbar-el {
+  text-decoration: none;
+}
+
+#navbar-yt-redirect {
+  /* this makes the button look clickable */
+  cursor: pointer;
+}
+
+#con-footnote {
+  font-size: 0.85em;
+  color: #393939;
 }
