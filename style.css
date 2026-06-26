@@ -74,3 +74,8 @@ nav ul li {
   /* this makes the button look clickable */
   cursor: pointer;
 }
+
+#con-footnote {
+  font-size: 0.85em;
+  color: #393939;
+}
