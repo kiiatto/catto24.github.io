@@ -60,3 +60,11 @@ nav ul li:last-child {
 nav ul li {
   display: inline;
 }
+
+.navbar-border {
+  color: aliceblue;
+}
+
+.navbar-el {
+  text-decoration: none;
+}
